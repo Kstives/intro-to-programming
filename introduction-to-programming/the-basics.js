@@ -66,9 +66,39 @@ typeof null; // returns 'object'
 '1' + '2'; // returns '12' because both are strings
 
 '1' + 2; // returns '12' because the string '1' coerced the number into being a string.
-'5' - 3 // returns 2 because coercion only works with the + operator, which is used for addition and concatenation
+'5' - 3; // returns 2 because coercion only works with the + operator, which is used for addition and concatenation
 
 // NaN 'Not a Number'
 0 / 0; // returns NaN because you can't divide 0 by 0
 4 - 'dog'; // returns NaN because the string 'dog' doesn't contain numbers
+
+// Explicit Coercion
+
+/* 
+The difference between explicit and implicit coercion is that explicit coercion 
+lets you decide what kind of coercion you want, whereas implicit coercion lets the engine decide.
+*/
+
+Number('1') + 1; // = 2 Explicit Coercion
+'1' + 1; // = '11' Implicit Coercion - 
+/*
+If one operand is a string and the other is not, the non-string operand
+string will be coerced into a string
+*/
+
+// parseInt
+parseInt('12'); // = 12
+parseInt('12xyz'); // = 12
+parseInt('3.1415'); // 3
+
+// parseFloat
+parseFloat('12.5foo'); // = 12.5
+
+// String
+String(20); // ='20'
+
+// Data Structures
+
+
+
 
