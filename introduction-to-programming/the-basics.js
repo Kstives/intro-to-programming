@@ -99,6 +99,35 @@ String(20); // ='20'
 
 // Data Structures
 
+// Arrays
+
+ let myArray = [1, 2, 3, 4, 5];
+ console.log(myArray[0]); // Prints the first position, the number 1, in the console
+ 
+ // Objects
+ let animalNoises = {
+   dog: 'barks',
+   cat: 'meows',
+   pig: 'oinks'
+   
+ };
+ 
+ animalNoises['cat']; // This accesses the cat key's value: 'meows'
+
+// Expressions and Return Values
+7 + (5 + 2); // 5 + 2 is an expression and a part of a larger expression of 7 + (5 + 2)
+
+let seven = 7; // This is a statement
+
+// Expressions always evaluate to a value, and statements are actions performed
+
+// Printing (logging) vs Returning Values
+let a = console.log("Howdy"); // prints Howdy to the console log, but returns undefined
+
+
+ 
+ 
+
 
 
 
