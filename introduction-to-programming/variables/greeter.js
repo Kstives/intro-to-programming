@@ -15,6 +15,6 @@ let name = 'Victor';
  console.log(`Good Afternoon, ${firstName}.`);
  console.log(`Good Evening, ${firstName}.`);
  
- // Yup, I could have definitely skipped putting it in a function *facepalm* - Note to self, keep it simple!
+ // Yup, I could have definitely skipped putting it in a function - Note to self, keep it simple!
  
  
