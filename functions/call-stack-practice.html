@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Call Stack Practice</title>
+  <meta name="description" content="Simple functions used to learn call stack.">
+  <meta name="author" content="Kstives">
+
+  <link rel="stylesheet" href="">
+
+</head>
+
+<body>
+  <script>
+    
+    function first() {
+  console.log("first function");
+}
+
+function second() {
+  first();
+  console.log("second function");
+}
+second();
+console.log("main function");
+
+  </script>
+</body>
+</html>
