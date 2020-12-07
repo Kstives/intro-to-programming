@@ -3,13 +3,7 @@ let numbers2 = [];
 let numbers3 = [2, 4, 6, 8];
 
 function checkForThree(list) {
-  return list.map(num => {
-    if (num === 3) {
-      return true;
-    } else {
-        return false;
-    }
-  });
+  return list.includes(3);
 }
 
 console.log(checkForThree(numbers1));

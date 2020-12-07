@@ -12,12 +12,14 @@ console.log(myArray.length); // 5
 console.log(myArray[myArray.length - 1]); // 10, last item in array
 
 // Modifying Arrays
-let fruits = ['apples', 'oranges', 'limes', 'grapes'];
+let fruits = ['apple', 'orange', 'lime', 'grape'];
 console.log(`The contents of fruits are: ${fruits}`);
 console.log(fruits);
 
-fruits[0] = 'pineapples'; // replacing first element of fruits array
+fruits[0] = 'pineapple'; // replacing first element of fruits array
 console.log(fruits);
-fruits[fruits.length] = 'lemons'; // adds lemons to the end of fruits array
+fruits[fruits.length] = 'lemon'; // adds lemons to the end of fruits array
 console.log(fruits);
+
+fruits.forEach(index => console.log(index + 's'));
 
