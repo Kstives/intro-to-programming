@@ -1,0 +1,3 @@
+let string1 = "These aren't the droids you're looking for.";
+
+console.log(string1.length);
