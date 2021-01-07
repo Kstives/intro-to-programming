@@ -1,0 +1,20 @@
+// function with concatenation
+
+// function greet() {
+//   console.log(greeting() + ', ' + recipient() + '!');
+// }
+
+// function with interpolation
+function greet() {
+  console.log(`${greeting()}, ${recipient()}!`);
+}
+
+  function greeting() {
+    return 'Good morning';
+  }
+  
+  function recipient() {
+    return 'Launch School';
+  }
+
+  greet();
